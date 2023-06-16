@@ -1,7 +1,7 @@
 name: location_android
 description: Android implementation of the location plugin
 homepage: https://docs.page/Lyokone/flutterlocation
-repository: https://github.com/Lyokone/flutterlocation
+repository: https://github.com/weklean/flutterlocation
 version: 5.0.0-dev.4
 
 environment:
