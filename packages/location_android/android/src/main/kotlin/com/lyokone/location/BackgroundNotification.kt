@@ -78,6 +78,7 @@ class BackgroundNotification(
             if (it != 0) it else getDrawableId(kDefaultNotificationIconName)
         }
         builder = builder
+            .setSilent(true)
             .setContentTitle(options.title)
             .setSmallIcon(iconId)
             .setContentText(options.description)
