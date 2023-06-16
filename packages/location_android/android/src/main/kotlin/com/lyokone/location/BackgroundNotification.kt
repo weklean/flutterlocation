@@ -78,13 +78,13 @@ class BackgroundNotification(
             if (it != 0) it else getDrawableId(kDefaultNotificationIconName)
         }
         builder = builder
-            .setSilent(true)
             .setContentTitle(options.title)
             .setSmallIcon(iconId)
             .setContentText(options.description)
             .setSubText(options.subtitle)
             .setColor(options.color ?: 0)
             .setOngoing(true)
+            .setSilent(true)
 
         builder = if (options.onTapBringToFront) {
             builder.setContentIntent(buildBringToFrontIntent())
