@@ -12,7 +12,7 @@ flutter:
   plugin:
     platforms:
       android:
-        default_package: .location_android
+        default_package: location_android
       ios:
         default_package: location_ios
       # linux:
