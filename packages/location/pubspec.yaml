@@ -15,14 +15,14 @@ flutter:
         default_package: location_android
       ios:
         default_package: location_ios
-      # linux:
-      #   default_package: location_linux
+      linux:
+        default_package: location_linux
       macos:
         default_package: location_macos
       web:
         default_package: location_web
-      # windows:
-      #   default_package: location_windows
+      windows:
+        default_package: location_windows
 
 dependencies:
   flutter:
