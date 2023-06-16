@@ -15,14 +15,14 @@ flutter:
         default_package: location_android
       ios:
         default_package: location_ios
-      linux:
-        default_package: location_linux
+#      linux:
+#        default_package: location_linux
       macos:
         default_package: location_macos
       web:
         default_package: location_web
-      windows:
-        default_package: location_windows
+#      windows:
+#        default_package: location_windows
 
 dependencies:
   flutter:
@@ -35,10 +35,10 @@ dependencies:
     git:
       url: https://github.com/weklean/flutterlocation
       path: packages/location_ios
-  location_linux:
-    git:
-      url: https://github.com/weklean/flutterlocation
-      path: location_linux
+#  location_linux:
+#    git:
+#      url: https://github.com/weklean/flutterlocation
+#      path: location_linux
   location_macos:
     git:
       url: https://github.com/weklean/flutterlocation
@@ -51,10 +51,10 @@ dependencies:
     git:
       url: https://github.com/weklean/flutterlocation
       path: location_web
-  location_windows:
-    git:
-      url: https://github.com/weklean/flutterlocation
-      path: location_windows
+#  location_windows:
+#    git:
+#      url: https://github.com/weklean/flutterlocation
+#      path: location_windows
 
 dev_dependencies:
   flutter_test:
