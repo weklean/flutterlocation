@@ -510,7 +510,7 @@ class LocationPlugin : FlutterPlugin, ActivityAware, LocationListener,
                 title = if (settings.title != null) settings.title!! else kDefaultNotificationTitle,
                 iconName = if (settings.iconName != null) settings.iconName!! else kDefaultNotificationIconName,
                 subtitle = settings.subtitle,
-                description = settings.subtitle,
+                description = settings.description,
                 color = if (settings.color != null) Color.parseColor(settings.color) else null,
                 onTapBringToFront = if (settings.onTapBringToFront != null) settings.onTapBringToFront!! else false,
             )

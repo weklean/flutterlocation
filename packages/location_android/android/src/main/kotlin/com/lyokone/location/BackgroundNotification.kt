@@ -80,8 +80,8 @@ class BackgroundNotification(
         builder = builder
             .setContentTitle(options.title)
             .setSmallIcon(iconId)
-            .setContentText(options.subtitle)
-            .setSubText(options.description)
+            .setContentText(options.description)
+            .setSubText(options.subtitle)
             .setColor(options.color ?: 0)
             .setOngoing(true)
 
