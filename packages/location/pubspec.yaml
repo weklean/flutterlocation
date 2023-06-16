@@ -38,7 +38,7 @@ dependencies:
 #  location_linux:
 #    git:
 #      url: https://github.com/weklean/flutterlocation
-#      path: location_linux
+#      path: packages/location_linux
   location_macos:
     git:
       url: https://github.com/weklean/flutterlocation
@@ -46,15 +46,15 @@ dependencies:
   location_platform_interface:
     git:
       url: https://github.com/weklean/flutterlocation
-      path: location_platform_interface
+      path: packages/location_platform_interface
   location_web:
     git:
       url: https://github.com/weklean/flutterlocation
-      path: location_web
+      path: packages/location_web
 #  location_windows:
 #    git:
 #      url: https://github.com/weklean/flutterlocation
-#      path: location_windows
+#      path: packages/location_windows
 
 dev_dependencies:
   flutter_test:
