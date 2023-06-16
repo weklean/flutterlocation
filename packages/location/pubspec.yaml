@@ -28,19 +28,19 @@ dependencies:
   flutter:
     sdk: flutter
   location_android:
-    path: location_android
+    path: flutterlocation/packages/location_android
   location_ios:
-    path: location_ios
+    path: flutterlocation/packages/location_ios
   location_linux:
-    path: location_linux
+    path: flutterlocation/packages/location_linux
   location_macos:
-    path: location_macos
+    path: flutterlocation/packages/location_macos
   location_platform_interface:
-    path: location_platform_interface
+    path: flutterlocation/packages/location_platform_interface
   location_web:
-    path: location_web
+    path: flutterlocation/packages/location_web
   location_windows:
-    path: location_windows
+    path: flutterlocation/packages/location_windows
 
 dev_dependencies:
   flutter_test:
