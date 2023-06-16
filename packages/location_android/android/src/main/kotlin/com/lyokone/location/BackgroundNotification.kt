@@ -82,7 +82,7 @@ class BackgroundNotification(
             .setSmallIcon(iconId)
             .setContentText(options.subtitle)
             .setSubText(options.description)
-            .setColor(options.color)
+            .setColor(options.color ?: 0)
 
         builder = if (options.onTapBringToFront) {
             builder.setContentIntent(buildBringToFrontIntent())
